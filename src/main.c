@@ -1,6 +1,10 @@
+#include <factorial/factorial.h>
+
 #include <stdio.h>
 
 int main(void) {
-	printf("Hello World\n");
+	for (int i = 0; i < 5; i++) {
+		printf("%d! = %d\n", i, factorial(i));
+	}
 	return 0;
 }
